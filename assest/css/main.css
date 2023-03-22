@@ -13,7 +13,7 @@ body{
     width: 100%;
     background: white;
     border-bottom: 1px solid #ccc;
-    border-top:5px solid  #61dafb;
+    border-top:5px solid #e90e21 ;
 
 }
 
@@ -34,16 +34,13 @@ body{
     float: left;
     height: 60px;
     margin-right: -5px;
-    animation: girar infinite 30s linear ;
+    animation: latir  3s infinite ;
 }
 
-@keyframes girar{
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+@keyframes latir{
+   from {transform: none;}
+   50% {transform: scale(1.4);}
+   to {transform: none;}
 }
 
 #brand{
@@ -87,7 +84,7 @@ body{
 }
 
 #menu a:hover{
-    color:#43d0f7
+    color:#e90e21
 }
 
 
@@ -103,13 +100,8 @@ body{
     color: white;
     text-shadow: 0px, 0px, 5px #444;
     
-    background: rgba(32,124,229,1);
-    background: -moz-radial-gradient(center, ellipse cover, rgba(32,124,229,1) 0%, rgba(32,124,229,0.94) 21%, rgba(32,124,229,0.74) 85%, rgba(32,124,229,0.7) 97%);
-    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(32,124,229,1)), color-stop(21%, rgba(32,124,229,0.94)), color-stop(85%, rgba(32,124,229,0.74)), color-stop(97%, rgba(32,124,229,0.7)));
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(32,124,229,1) 0%, rgba(32,124,229,0.94) 21%, rgba(32,124,229,0.74) 85%, rgba(32,124,229,0.7) 97%);
-    background: -o-radial-gradient(center, ellipse cover, rgba(32,124,229,1) 0%, rgba(32,124,229,0.94) 21%, rgba(32,124,229,0.74) 85%, rgba(32,124,229,0.7) 97%);
-    background: -ms-radial-gradient(center, ellipse cover, rgba(32,124,229,1) 0%, rgba(32,124,229,0.94) 21%, rgba(32,124,229,0.74) 85%, rgba(32,124,229,0.7) 97%);
-    background: radial-gradient(ellipse at center, rgba(32,124,229,1) 0%, rgba(32,124,229,0.94) 21%, rgba(32,124,229,0.74) 85%, rgba(32,124,229,0.7) 97%);
+    background: rgb(233,14,33);
+    background: radial-gradient(circle, rgba(233,14,33,0.6978991425671831) 44%, rgba(233,14,33,1) 59%); 
 
 }
 
