@@ -359,11 +359,6 @@ input[type="text"]:focus{
         
     }
 
-    #logo img{
-        width:35px;
-        height:35px;            
-    }
-
     #menu{
         padding: 10px;
     }
@@ -391,11 +386,7 @@ input[type="text"]:focus{
     }
 
 
-    #brand{     
-       margin: 0px auto;
-    }
-
-  
+   
    
     
     #logo{
