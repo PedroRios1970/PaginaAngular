@@ -387,13 +387,17 @@ input[type="text"]:focus{
    
     
     #logo{
+        font-size: 25px;
         float: none;
-        width:200px;        
+        width:256px;        
         margin:0px auto;
         margin-top: 25px;
 
     }
 
+    #menu{
+        padding: auto;
+    }
 
     #menu,
     #menu ul{
